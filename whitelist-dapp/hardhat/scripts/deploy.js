@@ -7,7 +7,7 @@ async function sleep(ms) {
 
 async function main() {
   /** 
-   * DeploContract in ether.js is an abstraction used to deploy new smart contracts,
+   * DeployContract in ether.js is an abstraction used to deploy new smart contracts,
    * so whitelistContract here ia a factory for instances of our Whitelist contract.
   */
 
