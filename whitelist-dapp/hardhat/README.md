@@ -1,13 +1,4 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Source code for building custom NFT Projects with whitelist and special minting priveleges for whitelist addresses.
+Using Solidity v0.8.20 and Hardhat
+Changes required in .env file, change RPC_URL to the HTTPS Provider link (use QUICKNODE), change PRIVATE_KEY to your own private key, adivisable to use developer wallet which does not contain any mainnet tokens and change API_KEY to etherscan api key.
+Have fun
